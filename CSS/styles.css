@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../Fonts/BebasNeue-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Alfa Slab One';
+    src: url('../Fonts/AlfaSlabOne-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Pokemon';
+    src: url('../Fonts/Pokemon\ Solid.ttf'); /* IE9 Compat Modes */
+}
+
+body{
+    margin: 0;
+    font-family: 'Bebas Neue';
+}
+
+header{
+    background-color: red;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    height: 85px;
+    box-shadow: 10px 5px 13px grey;
+    border-bottom: solid 1px rgb(139, 0, 0);
+}
+
+header h1{
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+.pokecard{
+    border-radius: 10px;
+    height: 550px;
+    width: 450px;
+    margin: 75px auto;
+    background-color: rgb(221, 221, 221);
+    border: solid 2px rgb(170, 170, 170);
+    box-shadow: 4px 6px 14px grey;
+}
+
+.img-container{
+    margin: 50px auto;
+    width: 200px;
+}
+
+.img-container img{
+    width: 200px;
+    border: solid 2px rgb(170, 170, 170);
+    border-radius: 10px;
+    background-color: honeydew;
+}
+
+.name{
+    background-color: honeydew;
+    border-radius: 20px;
+    border: solid 2px rgb(170, 170, 170);
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    line-height: 2.2;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.type{
+    background-color: honeydew;
+    border-radius: 20px;
+    border: solid 2px rgb(170, 170, 170);
+    width: 27%;
+    height: 35px;
+    text-align: center;
+    line-height: 2.4;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button-box button{
+    transition: 0.3s;
+    background-color: rgb(127, 189, 35);
+    width: 70%;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 2px rgb(105, 153, 32);
+    color: honeydew;
+    font-family:  'Bebas Neue';
+    font-size: 30px;
+}
+
+.button-box button:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: honeydew;
+    border: solid 2px rgb(127, 189, 35);
+    color: rgb(153, 226, 43);
+}
